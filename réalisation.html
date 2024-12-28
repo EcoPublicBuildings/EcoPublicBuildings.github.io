@@ -113,7 +113,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="réalisation.html">Réalisations</a>
+                                        <a href="#counter">Réalisations</a>
                                     </li>
                                     <li>
                                         <a href="event.html">Événements</a>
@@ -282,7 +282,7 @@
                         <!-- Plan Architectural -->
                         <div class="note green">
                             <div class="img_overlay">
-                                <p>Plan Architectural</p>
+                                <p>Le projet de construction de l’Institut Supérieur des Études Appliquées en Humanité de Mahdia</p> <!-- Project Name -->
                             </div>
                             <img src="img/archi.png" alt="Plan Architectural">
                         </div>
@@ -313,7 +313,13 @@
             }
         });
     }
+
+    // Apply default display on page load
+    document.addEventListener("DOMContentLoaded", function() {
+        filterImages('*');  // Display all images by default
+    });
 </script>
+
 
 
 
